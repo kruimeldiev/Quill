@@ -1,0 +1,61 @@
+/* 
+  Localizable.strings
+  Quill
+
+  Created by Casper Daris on 25/08/2023.
+  
+*/
+
+// MARK: - Common
+"continue" = "Continue";
+"or" = "OR";
+"sign_in" = "Sign in";
+"sign_up" = "Sign up";
+"sign_out" = "Sign out";
+
+// MARK: - Home screen
+"menu_add_book" = "Add new book";
+"menu_sort_books" = "Sort books by";
+"menu_filter_books" = "Filter books";
+"menu_sort_notes" = "Sort notes by";
+"menu_filter_notes" = "Filter notes";
+
+"greeting_morning" = "Morning,";
+"greeting_afternoon" = "Afternoon,";
+"greeting_evening" = "Evening,";
+
+// MARK: - Onboarding
+"onboarding_welcome" = "Welcome to Quill";
+"onboarding_description" = "Discover a seamless way to capture and retain your insights from every book you read.";
+
+// MARK: - Sign in & sign up
+"sign_in_email" = "Email";
+"sign_in_password" = "Password";
+"sign_in_username" = "Username";
+"sign_in_enter_email" = "Enter your email";
+"sign_in_enter_password" = "Enter your password";
+"sign_in_enter_username" = "Enter your username";
+"sign_in_forgot_password" = "Forgot password?";
+"sign_in_with_apple" = "Sign in with Apple";
+"sign_up_with_apple" = "Sign up with Apple";
+"sign_in_anonymous" = "Sign in anonymously";
+"sign_in_no_account_yet" = "Haven't registered yet?";
+"sign_up_already_account" = "Already have an account?";
+"sign_up_confirm_password" = "Confirm password";
+"sign_up_enter_confirm_password" = "Confirm your password";
+"sign_up_explanation" = "Securely store your notes in the cloud with an account. Never lose your important thoughts, even when switching devices.";
+
+// MARK: - Validation errors
+"validation_error_email" = "Invalid email address. Please enter a valid email.";
+"validation_error_password" = "Invalid password. It should be 6-24 characters long.";
+"validation_error_username" = "Invalid username. It should be 2-18 characters long and contain only letters and numbers.";
+"validation_error_password_mismatch" = "Passwords do not match. Please re-enter your password.";
+
+// MARK: - Authentication errors
+"authentication_error_generic" = "An unknown error occurred. Please try again later.";
+"authentication_error_email_signin" = "Unable to sign in with the provided credentials.";
+"authentication_error_email_register" = "Unable to register your account. Please try again later.";
+"authentication_error_anonymous_signin" = "Unable to sign in anonymously. Please sign up for an account.";
+"authentication_error_anonymous_register" = "Unable to register your anonymous account. Please try again later.";
+"authentication_error_fetch_profile" = "A server-side issue occurred while gathering your account information. Please sign in again.";
+"authentication_error_fetch_profile" = "A server-side issue occurred while signing out of your account. Please try again later.";
